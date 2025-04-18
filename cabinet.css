@@ -1,0 +1,118 @@
+header {
+	background-color: deepskyblue;
+	color: white;
+	display: flex;
+	
+	
+	
+	
+	width: 100%;
+	z-index: 1000;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.lien {
+	list-style: none;
+	display: flex;
+	margin-right: 70px;
+	gap: 10px;
+	font-size: 20px;
+}
+nav {
+	display: flex;
+	justify-content: flex-end;
+}
+.lien a {
+	color: white;
+	text-decoration: none;
+}
+body
+{
+ width: 100%;
+}
+p {
+	font-size: 20px;
+	margin-left: 30px;
+}
+h3 {
+	font-size: 23px;
+} 
+li {
+	font-size: 19px;
+	padding: 5px;
+}
+a {
+	text-decoration: none;
+}
+/* le bouton humbuger*/
+.humburger {
+	display: none;
+	
+}
+@media (max-width: 768px) {
+	.lien {
+		display: none; /*la nous masquons le lien pour afficher le boutons*/
+		flex-direction: column;
+		position: absolute;
+		top: 60px;
+		right: 0;
+		background-color: #333;
+		width: 100%;
+		text-align: center;
+		
+	}
+	.lien.active {
+		display: flex;
+	}
+	.humburger {
+		display: block; /* pour afficher le menu humbureger*/
+		font-size: 30px;
+		cursor: pointer;
+
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+	border: 2px solid black;
+	background: black;
+	color: white;
+	
+}
+.footer-div{
+	display: flex;
+	padding: 50px;
+	text-align: center;
+	text-decoration: none;
+	list-style: none;
+	gap: 30px;
+
+}
+ footer ul  {
+	text-decoration: none;
+	list-style: none;
+}
+footer li a {
+	color: #fff;
+	text-decoration: none;
+}
+footer h4 {
+	font-size: 24px;
+}footer .copyright {
+	width: 100%;
+	text-align: center;
+	margin-top: 20px;
+}
+

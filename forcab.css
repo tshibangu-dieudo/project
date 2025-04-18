@@ -1,0 +1,119 @@
+p {
+	font-size: 19px;
+
+}
+form {
+	border: 2px solid black;
+	padding-top: 19px;
+	padding-bottom: 19px;
+	border-radius: 20px;
+	margin-left: 500px;
+	margin-right: 500px;
+	text-align: center;
+	background-color: #eeeeee;
+
+}
+
+header {
+	background-color: deepskyblue;
+	color: white;
+	display: flex;
+	
+	
+	
+	
+	width: 100%;
+	z-index: 1000;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.lien {
+	list-style: none;
+	display: flex;
+	margin-right: 70px;
+	gap: 10px;
+	font-size: 20px;
+}
+nav {
+	display: flex;
+	justify-content: flex-end;
+}
+.lien a {
+	color: white;
+	text-decoration: none;
+}
+
+.humburger {
+	display: none;
+	
+}
+@media (max-width: 768px) {
+	.lien {
+		display: none; /*la nous masquons le lien pour afficher le boutons*/
+		flex-direction: column;
+		position: absolute;
+		top: 60px;
+		right: 0;
+		background-color: #333;
+		width: 100%;
+		text-align: center;
+		
+	}
+	.lien.active {
+		display: flex;
+	}
+	.humburger {
+		display: block; /* pour afficher le menu humbureger*/
+		font-size: 30px;
+		cursor: pointer;
+
+	}
+}
+
+
+
+
+footer {
+	border: 2px solid black;
+	background: black;
+	color: white;
+	margin-bottom: 100px;
+	
+}
+.footer-div{
+	display: flex;
+	padding: 50px;
+	text-align: center;
+	text-decoration: none;
+	list-style: none;
+	gap: 30px;
+
+}
+ footer ul  {
+	text-decoration: none;
+	list-style: none;
+}
+footer li a {
+	color: #fff;
+	text-decoration: none;
+}
+footer h4 {
+	font-size: 24px;
+}footer .copyright {
+	width: 100%;
+	text-align: center;
+	margin-top: 20px;
+}
+
+./*div {
+	background-color: #eeeeee;
+	 padding: 20px;
+	 border-radius: 8px;
+	  width: 300px;
+	  padding-bottom: 50px;
+}*/
+
+
+
